@@ -1,0 +1,24 @@
+{
+  "name": "webkit-css-reset",
+  "description": "Reset css for webkit.",
+  "main": "dist/webkit-css-reset.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-css-reset",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
