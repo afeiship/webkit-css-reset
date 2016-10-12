@@ -1,7 +1,10 @@
 {
   "name": "webkit-css-reset",
   "description": "Reset css for webkit.",
-  "main": "dist/webkit-css-reset.js",
+  "main": [
+    "dist/webkit-css-reset.css",
+    "dist/webkit-css-reset.scss"
+  ],
   "authors": [
     "afei"
   ],

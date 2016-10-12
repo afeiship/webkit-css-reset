@@ -1,9 +1,4 @@
 /**reset Start**/
-
-//configuration:
-$header-font-size-h1-3:14px;
-$header-font-size-h4-6:12px;
-
 *, :after, :before {
   box-sizing: border-box;
 }
@@ -12,8 +7,6 @@ html,
 body {
   height: 100%;
   width: 100%;
-  // overflow-x: hidden;
-  // overflow-y: auto;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -22,8 +15,8 @@ html {
 }
 
 body {
-  font-family: 'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: "STHeiti", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a,
@@ -31,11 +24,11 @@ a:active,
 a:hover,
 a:focus,
 a:visited {
-  text-decoration: none
+  text-decoration: none;
 }
 
 a, img {
-  -webkit-touch-callout: none
+  -webkit-touch-callout: none;
 }
 
 body, div, dl, dt, dd, ul, ol, li,
@@ -76,13 +69,16 @@ s, ins {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
 h1, h2, h3 {
-  font-size: $header-font-size-h1-3;
+  font-size: 14px;
 }
 
 h4, h5, h6 {
-  font-size: $header-font-size-h4-6;
-  font-weight: normal;
+  font-size: 12px;
 }
 
 ul, ol, li {
@@ -100,14 +96,16 @@ hr {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-
 button,
 input,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 2 */
-  margin: 0; /* 3 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
 }
 
 img, input, select {
