@@ -15,4 +15,7 @@
     require('./gulp/' + file);
   });
 
+
+  gulp.task('default',['build']);
+
 }());

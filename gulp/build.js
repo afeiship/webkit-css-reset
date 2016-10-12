@@ -14,5 +14,4 @@
     gulp.start(['styles']);
   });
 
-
 }());
