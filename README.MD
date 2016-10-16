@@ -1,14 +1,14 @@
-#webkit-css-reset
-Reset css for webkit.
+#webkit-sass-reset
+Reset sass for webkit.
 
 
 ## usage:
 + use sass file:
 ```scss
 //Your configuration:
-$body-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
-$header-font-size-h1-3:14px;
-$header-font-size-h4-6:12px;
+$base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+$base-font-size-h1-3:14px;
+$base-font-size-h4-6:12px;
 
 @import "dist/webkit-css-reset";
 ```

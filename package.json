@@ -1,7 +1,7 @@
 {
-  "name": "webkit-css-reset",
+  "name": "webkit-scss-reset",
   "version": "0.0.0",
-  "description": "Reset css for webkit.",
+  "description": "Reset scss for webkit.",
   "homepage": "https://github.com/afeiship/webkit-css-reset",
   "author": {
     "name": "afei",

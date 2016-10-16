@@ -1,6 +1,6 @@
 {
-  "name": "webkit-css-reset",
-  "description": "Reset css for webkit.",
+  "name": "webkit-sass-reset",
+  "description": "Reset sass for webkit.",
   "main": [
     "dist/webkit-css-reset.css",
     "dist/webkit-css-reset.scss"
