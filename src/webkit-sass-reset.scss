@@ -1,9 +1,10 @@
 /**reset Start**/
 
 //configuration:
-$base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
-$base-font-size-h1-3:14px;
-$base-font-size-h4-6:12px;
+$base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif !default;
+$base-font-size-h1-3:14px !default;
+$base-font-size-h4-6:12px !default;
+
 
 *, :after, :before {
   box-sizing: border-box;
