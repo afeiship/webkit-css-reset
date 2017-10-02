@@ -1,8 +1,8 @@
 {
-  "name": "webkit-scss-reset",
+  "name": "webkit-sass-reset",
   "version": "0.0.0",
   "description": "Reset scss for webkit.",
-  "homepage": "https://github.com/afeiship/webkit-css-reset",
+  "homepage": "https://github.com/afeiship/webkit-sass-reset",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
