@@ -16,9 +16,11 @@
       .pipe(gulp.dest('dist'))
       .pipe($.sass(config.sassOptions.normal).on('error', $.sass.logError))
       .pipe(gulp.dest('dist'))
+      .pipe(gulp.dest('docs'))
       .pipe($.sass(config.sassOptions.minify).on('error', $.sass.logError))
       .pipe($.rename({ extname:'.min.css'}))
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest('dist'))
+      .pipe(gulp.dest('docs'));
   });
 
 
