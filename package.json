@@ -8,9 +8,9 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
-    "build":"gulp"
+    "build": "gulp"
   },
-  "main":"dist/webkit-sass-reset.scss",
+  "main": "dist/webkit-sass-reset.scss",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

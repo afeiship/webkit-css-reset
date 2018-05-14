@@ -97,6 +97,7 @@ textarea {
   /* 2 */
   margin: 0;
   /* 3 */
+  outline: none;
 }
 
 img, input, select {
