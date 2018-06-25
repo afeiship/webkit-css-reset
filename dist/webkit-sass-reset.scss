@@ -1,10 +1,15 @@
 /**reset Start**/
 
-//configuration:
-$base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif !default;
-$base-font-size-h1-3:14px !default;
-$base-font-size-h4-6:12px !default;
+$webkit-sass-reset-options:(
+  base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif,
+  base-font-size-h1-3:14px,
+  base-font-size-h4-6:12px,
+)!default;
 
+//configuration:
+$base-font-family: map-get($map: $webkit-sass-reset-options, $key: base-font-family);
+$base-font-size-h1-3: map-get($map: $webkit-sass-reset-options, $key: base-font-size-h1-3);
+$base-font-size-h4-6: map-get($map: $webkit-sass-reset-options, $key: base-font-size-h4-6);
 
 *, :after, :before {
   box-sizing: border-box;

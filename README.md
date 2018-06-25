@@ -10,7 +10,7 @@ $base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
 $base-font-size-h1-3:14px;
 $base-font-size-h4-6:12px;
 
-@import "dist/webkit-css-reset";
+@import "node_modules/webkit-sass-reset/dist/webkit-css-reset.scss";
 ```
 
 + use css:
