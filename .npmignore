@@ -1,9 +1,12 @@
 build
 src
+docs
 config
 static
+.editorconfig
 .babelrc
 .gitignore
 yarn.lock
 test
 index.html
+gulpfile.js
