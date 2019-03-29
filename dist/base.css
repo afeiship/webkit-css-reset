@@ -1,0 +1,144 @@
+/**reset Start**/
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+}
+
+a,
+img {
+  -webkit-touch-callout: none;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+pre,
+form,
+fieldset,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td,
+s,
+b,
+figure,
+menu {
+  margin: 0;
+  padding: 0;
+}
+
+/*html5 tag support*/
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+fieldset,
+img,
+abbr,
+acronym,
+hr {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+address,
+caption,
+cite,
+dfn,
+th,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+}
+
+hr {
+  display: block;
+  height: 0;
+  border-top: 1px solid #cccccc;
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  outline: none;
+}
+
+img,
+input,
+select {
+  vertical-align: middle;
+}
+
+/**reset  End**/
