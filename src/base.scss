@@ -1,5 +1,4 @@
 /**reset Start**/
-/**reset Start**/
 *,
 :after,
 :before {
@@ -13,7 +12,7 @@ body {
 }
 
 body {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 a,
@@ -123,16 +122,14 @@ hr {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
+
 button,
 input,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 2 */
-  margin: 0;
-  /* 3 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 2 */
+  margin: 0; /* 3 */
   outline: none;
 }
 
@@ -140,34 +137,6 @@ img,
 input,
 select {
   vertical-align: middle;
-}
-
-/**reset  End**/
-body {
-  font-family: "STHeiti", "Microsoft YaHei", Helvetica, Arial, sans-serif;
-}
-
-s,
-ins {
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3 {
-  font-size: 14px;
-}
-
-h4,
-h5,
-h6 {
-  font-size: 12px;
-}
-
-ul,
-ol,
-li {
-  list-style-type: none;
 }
 
 /**reset  End**/

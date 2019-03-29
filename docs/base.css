@@ -1,5 +1,4 @@
 /**reset Start**/
-/**reset Start**/
 *,
 :after,
 :before {
@@ -140,34 +139,6 @@ img,
 input,
 select {
   vertical-align: middle;
-}
-
-/**reset  End**/
-body {
-  font-family: "STHeiti", "Microsoft YaHei", Helvetica, Arial, sans-serif;
-}
-
-s,
-ins {
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3 {
-  font-size: 14px;
-}
-
-h4,
-h5,
-h6 {
-  font-size: 12px;
-}
-
-ul,
-ol,
-li {
-  list-style-type: none;
 }
 
 /**reset  End**/

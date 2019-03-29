@@ -1,5 +1,8 @@
 /**reset Start**/
-*, :after, :before {
+/**reset Start**/
+*,
+:after,
+:before {
   box-sizing: border-box;
 }
 
@@ -10,7 +13,6 @@ body {
 }
 
 body {
-  font-family: "STHeiti", "Microsoft YaHei", Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -22,26 +24,65 @@ a:visited {
   text-decoration: none;
 }
 
-a, img {
+a,
+img {
   -webkit-touch-callout: none;
 }
 
-body, div, dl, dt, dd, ul, ol, li,
-h1, h2, h3, h4, h5, h6, hr,
-pre, form, fieldset, input, textarea, button,
-p, blockquote, th, td, s, b, figure,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+pre,
+form,
+fieldset,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td,
+s,
+b,
+figure,
 menu {
   margin: 0;
   padding: 0;
 }
 
 /*html5 tag support*/
-article, aside, canvas, details, figcaption, figure,
-footer, header, menu, nav, section, summary {
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary {
   display: block;
 }
 
-fieldset, img, abbr, acronym, hr {
+fieldset,
+img,
+abbr,
+acronym,
+hr {
   border: none;
 }
 
@@ -51,29 +92,24 @@ table {
   empty-cells: show;
 }
 
-caption, th {
+caption,
+th {
   text-align: left;
 }
 
-address, caption, cite, dfn, th, var, i, s, em,
-h1, h2, h3, h4, h5, h6 {
+address,
+caption,
+cite,
+dfn,
+th,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-style: normal;
-}
-
-s, ins {
-  text-decoration: none;
-}
-
-h1, h2, h3 {
-  font-size: 14px;
-}
-
-h4, h5, h6 {
-  font-size: 12px;
-}
-
-ul, ol, li {
-  list-style-type: none;
 }
 
 hr {
@@ -100,8 +136,38 @@ textarea {
   outline: none;
 }
 
-img, input, select {
+img,
+input,
+select {
   vertical-align: middle;
+}
+
+/**reset  End**/
+body {
+  font-family: "STHeiti", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+}
+
+s,
+ins {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 14px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 12px;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
 }
 
 /**reset  End**/
