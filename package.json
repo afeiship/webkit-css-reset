@@ -11,6 +11,14 @@
     "build": "gulp"
   },
   "main": "dist/webkit-sass-reset.scss",
+  "files": [
+    "dist/webkit-sass-reset.scss",
+    "dist/webkit-sass-reset.css",
+    "dist/webkit-sass-reset.min.css",
+    "dist/base.scss",
+    "dist/base.css",
+    "dist/base.min.css"
+  ],
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
