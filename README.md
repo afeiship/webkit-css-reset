@@ -1,8 +1,13 @@
 # webkit-sass-reset
-Reset sass for webkit.
+> Reset sass for webkit.
+
+## installation
+```shell
+npm install -S @feizheng/webkit-sass-reset
+```
 
 
-## usage:
+## usage
 + use sass file:
   ```scss
   //Your configuration:
