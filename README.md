@@ -6,7 +6,6 @@
 npm install -S @feizheng/webkit-sass-reset
 ```
 
-
 ## usage
 + use sass file:
   ```scss
