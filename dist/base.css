@@ -1,32 +1,35 @@
+/*!
+ * name: @feizheng/webkit-sass-reset
+ * description: Reset sass for webkit.
+ * homepage: https://github.com/afeiship/webkit-sass-reset
+ * version: 2.0.0
+ * date: 2020-07-25T12:34:26.818Z
+ * license: MIT
+ */
 /**reset Start**/
 *,
 :after,
 :before {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html,
 body {
   width: 100%;
-  -webkit-font-smoothing: antialiased;
-}
+  -webkit-font-smoothing: antialiased; }
 
 body {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 a,
 a:active,
 a:hover,
 a:focus,
 a:visited {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 a,
 img {
-  -webkit-touch-callout: none;
-}
+  -webkit-touch-callout: none; }
 
 body,
 div,
@@ -58,8 +61,7 @@ b,
 figure,
 menu {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /*html5 tag support*/
 article,
@@ -74,27 +76,23 @@ menu,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
 
 fieldset,
 img,
 abbr,
 acronym,
 hr {
-  border: none;
-}
+  border: none; }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  empty-cells: show;
-}
+  empty-cells: show; }
 
 caption,
 th {
-  text-align: left;
-}
+  text-align: left; }
 
 address,
 caption,
@@ -108,14 +106,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-style: normal;
-}
+  font-style: normal; }
 
 hr {
   display: block;
   height: 0;
-  border-top: 1px solid #cccccc;
-}
+  border-top: 1px solid #cccccc; }
 
 /**
  * 1. Correct font family not being inherited in all browsers.
@@ -132,13 +128,11 @@ textarea {
   /* 2 */
   margin: 0;
   /* 3 */
-  outline: none;
-}
+  outline: none; }
 
 img,
 input,
 select {
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 /**reset  End**/
