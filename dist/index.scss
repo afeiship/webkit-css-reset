@@ -1,22 +1,23 @@
 /*!
- * name: @feizheng/webkit-sass-reset
- * description: Reset sass for webkit.
- * homepage: https://github.com/afeiship/webkit-sass-reset
- * version: 2.0.0
- * date: 2020-07-25T12:34:26.818Z
+ * name: @jswork/wsui-reset
+ * description: Reset css for wsui.
+ * homepage: https://github.com/afeiship/wsui-reset
+ * version: 1.0.0
+ * date: 2020-11-18 17:13:06
  * license: MIT
  */
 
-/**reset Start**/
-
-$base-font-family: "STHeiti", "Microsoft YaHei", Helvetica, Arial, sans-serif !default;
-$base-font-size-h1-3: 14px !default;
-$base-font-size-h4-6: 12px !default;
+/*wsui-reset Start*/
+$wsui-reset-options: (
+  font-family: "STHeiti, Microsoft YaHei, Helvetica, Arial, sans-serif",
+  header1: 14px,
+  header4: 12px
+) !default;
 
 @import "./base.scss";
 
 body {
-  font-family: $base-font-family;
+  font-family: map-get($map: $wsui-reset-options, $key: font-family);
 }
 
 s,
@@ -27,13 +28,13 @@ ins {
 h1,
 h2,
 h3 {
-  font-size: $base-font-size-h1-3;
+  font-size: map-get($map: $wsui-reset-options, $key: header1);
 }
 
 h4,
 h5,
 h6 {
-  font-size: $base-font-size-h4-6;
+  font-size: map-get($map: $wsui-reset-options, $key: header4);
 }
 
 ul,
@@ -42,4 +43,4 @@ li {
   list-style-type: none;
 }
 
-/**reset  End**/
+/*wsui-reset End*/

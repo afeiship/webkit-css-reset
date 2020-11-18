@@ -1,12 +1,12 @@
 /*!
- * name: @feizheng/webkit-sass-reset
- * description: Reset sass for webkit.
- * homepage: https://github.com/afeiship/webkit-sass-reset
- * version: 2.0.0
- * date: 2020-07-25T12:34:26.818Z
+ * name: @jswork/wsui-reset
+ * description: Reset css for wsui.
+ * homepage: https://github.com/afeiship/wsui-reset
+ * version: 1.0.0
+ * date: 2020-11-18 17:13:06
  * license: MIT
  */
-/**reset Start**/
+/**base Start**/
 *,
 :after,
 :before {
@@ -135,4 +135,4 @@ input,
 select {
   vertical-align: middle; }
 
-/**reset  End**/
+/**base  End**/

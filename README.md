@@ -1,5 +1,5 @@
-# webkit-sass-reset
-> Reset sass for webkit.
+# wsui-reset
+> Reset css for wsui.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -8,44 +8,38 @@
 
 ## installation
 ```shell
-# install
-npm i @feizheng/webkit-sass-reset
-
-# update
-npm update @feizheng/webkit-sass-reset
+npm i @jswork/wsui-reset
 ```
 
 ## usage
-+ use sass file:
-  ```scss
-  //Your configuration:
-  $base-font-family:'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
-  $base-font-size-h1-3:14px;
-  $base-font-size-h4-6:12px;
+```scss
+@import '~@jswork/wsui-reset';
+@import '~@jswork/wsui-reset/dist/base.scss';
+```
 
-  @import "node_modules/webkit-sass-reset/dist/webkit-css-reset.scss";
-  ```
+## options
+> you can customize use `sass`
 
-+ use css:
-  ```html
-  <link rel="stylesheet" href="dist/webkit-css-reset.css" />
-  ```
-
-## documentation
-- https://afeiship.github.io/webkit-sass-reset/
+```scss
+$wsui-reset-options: (
+  font-family: "STHeiti, Microsoft YaHei, Helvetica, Arial, sans-serif",
+  header1: 14px,
+  header4: 12px
+) !default;
+```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/webkit-sass-reset/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/wsui-reset/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/webkit-sass-reset
-[version-url]: https://npmjs.org/package/@feizheng/webkit-sass-reset
+[version-image]: https://img.shields.io/npm/v/@jswork/wsui-reset
+[version-url]: https://npmjs.org/package/@jswork/wsui-reset
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/webkit-sass-reset
-[license-url]: https://github.com/afeiship/webkit-sass-reset/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/wsui-reset
+[license-url]: https://github.com/afeiship/wsui-reset/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/webkit-sass-reset
-[size-url]: https://github.com/afeiship/webkit-sass-reset/blob/master/dist/webkit-sass-reset.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/wsui-reset
+[size-url]: https://github.com/afeiship/wsui-reset/blob/master/dist/wsui-reset.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/webkit-sass-reset
-[download-url]: https://www.npmjs.com/package/@feizheng/webkit-sass-reset
+[download-image]: https://img.shields.io/npm/dm/@jswork/wsui-reset
+[download-url]: https://www.npmjs.com/package/@jswork/wsui-reset
 
