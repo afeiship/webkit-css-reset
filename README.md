@@ -13,7 +13,10 @@ npm i @jswork/wsui-reset
 
 ## usage
 ```scss
+// will reset a/h1-6/ul and..
 @import '~@jswork/wsui-reset';
+
+// or use basic reset styles
 @import '~@jswork/wsui-reset/dist/base.scss';
 ```
 
